@@ -16,7 +16,7 @@ const Job = ({ job }) => {
       setColor("text-gray-900");
     } else {
       list.push(id);
-      setColor("text-pink-600");
+      setColor("text-pink-500");
     }
     value.setLove(list);
   };
@@ -41,7 +41,7 @@ const Job = ({ job }) => {
 
   const description = showFullDescription
     ? job.description
-    : `${job.description.substring(0, 90)}...`;
+    : `${job.description.substring(0, 70)}...`;
 
   return (
     <div className="p-4 bg-white rounded-xl  shadow-md">
@@ -51,7 +51,8 @@ const Job = ({ job }) => {
         </div>
         <h3 className="text-xl font-bold">
           <i className="fa-solid fa-briefcase text-lg mr-2" />
-          {job.id} {job.title}
+          {/* {job.id} */}
+           {job.title}
         </h3>
       </div>
 
@@ -68,7 +69,7 @@ const Job = ({ job }) => {
       <div className="border border-gray-100 mb-5" />
 
       <div className="flex flex-col lg:flex-row justify-between mb-4">
-        <div className="text-orange-700 mb-3">
+        <div className="text-red-800  mb-3">
           <i className="fa-solid fa-location-dot text-lg" /> {job.location}
         </div>
         <div className="Heard">

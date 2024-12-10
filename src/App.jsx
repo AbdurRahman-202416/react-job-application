@@ -87,7 +87,6 @@ const App = () => {
   return (
     <love.Provider value={{totalLove,setLove}}>
       <RouterProvider router={router} />
-
     </love.Provider>
   );
 };
