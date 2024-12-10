@@ -1,0 +1,18 @@
+
+
+#Run this Json Server 
+>npm run server
+
+#run Vite Project 
+>npm run dev  or npx vite
+
+#built project 
+>npm run build
+
+# for Project preview
+>npm run preview
+
+
+
+<i class="fa-solid fa-heart m-2">
+</i> <i class="fa-solid fa-thumbs-up m-2"></i>
